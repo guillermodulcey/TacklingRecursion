@@ -12,8 +12,8 @@ public class FibonacciLoop {
 		System.out.println("The "+value+" value of the Fibonacci secuence: "+fibonacci(value));
 	}
 	
-	static int fibonacci(int x){
-		int[] n1n2 = new int[2];
+	public static long fibonacci(int x){
+		long[] n1n2 = new long[2];
 		/*****************************************************************
 		Again the number 0 is considered the first element in the secuence
 		*****************************************************************/
@@ -29,7 +29,7 @@ public class FibonacciLoop {
 		This way it doesn't need to use recursion to solve the secuence.
 		******************************************************************************/
 		for(int i = 2; i < x; i++){
-			int newValue = n1n2[1] + n1n2[0];
+			long newValue = n1n2[1] + n1n2[0];
 			n1n2[0] = n1n2[1];
 			n1n2[1] = newValue;
 		}

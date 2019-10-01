@@ -1,0 +1,1 @@
+You can run the program yourself, but as you can see in the screenshot, it took almost 4 seconds to find the 45th term of the secuence for the recursion version, while the loop version got it in less than 1 second.
