@@ -12,7 +12,7 @@ public class Fibonacci {
 		System.out.println("The "+value+" value of the Fibonacci secuence: "+fibonacci(value));
 	}
 
-	static int fibonacci(int x){
+	public static long fibonacci(int x){
 		/***************************************************************
 		There is some debate of rather the function begins with 0 or 1.
 		For this example we take that 0 is the first number.
