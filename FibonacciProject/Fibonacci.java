@@ -1,5 +1,5 @@
 /************************************************
-The simplest way to solve the fibonacci secuence
+The simplest way to solve the Fibonacci sequence
 
 Code by: Hernán Guillermo Dulcey Morán
 September 2019

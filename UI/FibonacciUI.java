@@ -1,5 +1,5 @@
 /*************************************
-An UI for the Fibonacci secuence
+An UI for the Fibonacci sequence
 
 Code by: Hernán Guillermo Dulcey Morán
 October 2019
