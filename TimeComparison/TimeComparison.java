@@ -17,8 +17,8 @@ public class TimeComparison {
 		long durationRecursion = timeRecursion(value);
 		long durationLoop = timeLoop(value);
 
-		System.out.printf("It took Recursion %d nanoseconds to find the %d value of the secuence%n", durationRecursion, value);
-		System.out.printf("It took Loop %d nanoseconds to find the %d value of the secuence%n", durationLoop, value);
+		System.out.printf("It took Recursion %d nanoseconds to find the %d value of the sequence%n", durationRecursion, value);
+		System.out.printf("It took Loop %d nanoseconds to find the %d value of the sequence%n", durationLoop, value);
 	}
 
 	/**********************************************************************
@@ -30,7 +30,7 @@ public class TimeComparison {
 	static long timeRecursion(int value){
 		Long startTime = System.nanoTime();
 
-		long secuenceValue = Fibonacci.fibonacci(value);
+		long sequenceValue = Fibonacci.fibonacci(value);
 
 		Long endTime = System.nanoTime();
 
@@ -42,7 +42,7 @@ public class TimeComparison {
 	static long timeLoop(int value){
 		Long startTime = System.nanoTime();
 
-		long secuenceValue = FibonacciLoop.fibonacci(value);
+		long sequenceValue = FibonacciLoop.fibonacci(value);
 
 		Long endTime = System.nanoTime();
 
