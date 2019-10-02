@@ -9,7 +9,7 @@ package FibonacciProject;
 public class Fibonacci {
 	public static void main(String[] args) {
 		int value = Integer.parseInt(args[0]);
-		System.out.println("The "+value+" value of the Fibonacci secuence: "+fibonacci(value));
+		System.out.println("The "+value+" value of the Fibonacci sequence: "+fibonacci(value));
 	}
 
 	public static long fibonacci(int x){
